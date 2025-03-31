@@ -43,7 +43,7 @@ A cada etapa do processo de pagamento, um evento é registrado no banco de dados
 
 A aplicação expõe o seguinte endpoint para o processamento de pagamentos:
 
-### `POST /api/payments`
+### `GET /api/payments`
 
 - **Descrição**: Processa o pagamento de um pedido.
 - **Parâmetros**:
